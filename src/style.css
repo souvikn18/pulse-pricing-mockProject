@@ -1,0 +1,63 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+#list-img{
+    list-style-image: url(./assets/check-regular-24.png);
+    list-style-position: outside;
+}
+.signup {
+	pointer-events: auto;
+	cursor: pointer;
+	padding: 4px 16px;
+	margin: 0;
+}
+.signup-animation {
+	background: #00ad6a;
+	font-weight: 700;
+	padding: 0;
+}
+
+.signup-animation span {
+	display: block;
+	background: #eafaf1;
+	padding: 4px 16px;
+	border: 2px solid #00ad6a;
+	transform: translate3d();
+	transition: transform cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.signup-animation:hover span {
+	transform: translate3d(5px, -5px, 0);
+}
+
+.footer-signup{
+    pointer-events: auto;
+	cursor: pointer;
+	padding: 16px 32px;
+	margin: 0;
+}
+.footer-signup-animation {
+	background: #6b6b6ba8;
+	font-weight: 700;
+	padding: 0;
+}
+.footer-signup-animation span {
+	display: block;
+	background-image: linear-gradient(90deg, #00ab6a, #23ea76);
+	padding: 16px 32px;
+	transform: translate3d();
+	transition: transform cubic-bezier(0.7, 0, 0.2, 1);
+}
+.footer-signup-animation:hover span {
+	transform: translate3d(5px, -5px, 0);
+}
+
+.plans button{
+    opacity: 0.9;
+}
+.plans:hover button{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+}
